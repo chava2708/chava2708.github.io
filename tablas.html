@@ -2,14 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Tablas</title>
+    <title>Tablas</title>   
+    <!--Estilo interno de una hoja-->
+    <style>
+        tr{ background-color:blue;}
+    </style>    
+     <!--Estilo externo de una hoja-->
+    <link href="estilos.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <h1>Ejemplo de tablas en HTML</h1>
     <table>
         <th>
             <thead>
-                <tr>
+                <!--Estilo en linea de una hoja (No es recomendable)
+                <tr style="background-color: green;">-->
+
+                <tr class="verde">    
                     <th>Materia</th>
                     <th>Creditos</th>
                 </tr>
