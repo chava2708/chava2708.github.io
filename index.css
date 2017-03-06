@@ -42,7 +42,10 @@ td{
     font-weight: bold;    
 }
 
- h1{ color : blue;}
+ h1{ 
+     color : blue;
+    text-align: center;
+ }
  h2{color: red;}
 h3{color: red;}
  h5{color:blue;}
