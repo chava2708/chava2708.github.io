@@ -2,24 +2,36 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Selectores</title>
-    <h1>3.1.- Selectores en CSS</h1>
+    <link rel="stylesheet" href="index.css">
+    <title>Selectores</title>    
 </head>
-<body>
-    <ol>    
-        <li>Selector de tipo: <br> Selecciona un tipo de elemento HTML y aplica el estilo a todos los elementos del mismo tipo.<br>Ejemplo: p { text-align:justify; }</li>
-        <br>
-        <li>Selector descendente: <br> Aplica el estilo a elementos que estan contenidos dentro de otros elementos.<br>Ejemplo:  p b { color:red; } , ul li b { color:green; }</li>
-        <br>
-        <li>Selector hijo: <br> Similar al descendente pero más restrictivo. Aplica el estilo solamente a los elementos que sean hijos directos de otro elemento.<br>Ejemplo:  p > b { color:blue; }</li>
-        <br>
-        <li>Selector por ID: <br> Un ID es un atributo de un elemento HTML y se utiliza para aplicar un estilo de manera particular.<br>Ejemplo: <br> &lt; p id="introduccion"&gt;Este es el parrafo de la introducción &lt; /p &gt; <br> &lt; p &gt;Este es otro parrafo &lt; /p &gt; <br> # introduccion { color:blue; } ( Un selector por id utiliza el simbolo #)</li>
-        <br>       
-        <li>Selector por clase: <br> Aplicar el estilo a un conjunto de elementos.<br>Ejemplo: &lt; p class="especial" &gt;  este es un parrafo especial &lt; /p &gt; </li>
-        <br>
-        <li>Selector Universal " * ": <br> Aplica el mismo estilo a todos los elementos de la pagina.
+<body class="b">
+    <h1>3.1.- Selectores en CSS</h1>
+    <ol class="div123">    
+        <li>Selector de tipo:</li> 
+        <p class="cont123">Selecciona un tipo de elemento HTML y aplica el estilo a todos los elementos del mismo tipo.<br>Ejemplo: p { text-align:justify; } </p>        
+        <li>Selector descendente: </li>
+        <p class="cont123"> Aplica el estilo a elementos que estan contenidos dentro de otros elementos.<br>Ejemplo:  p b { color:red; } , ul li b { color:green; }</p>        
+        <li>Selector hijo:</li> 
+        <p class="cont123"> Similar al descendente pero más restrictivo. Aplica el estilo solamente a los elementos que sean hijos directos de otro elemento.<br>Ejemplo:  p > b { color:blue; }</p>        
+        <li>Selector por ID:</li>
+        <p class="cont123"> Un ID es un atributo de un elemento HTML y se utiliza para aplicar un estilo de manera particular.<br>Ejemplo: <br> &lt; p id="introduccion"&gt;Este es el parrafo de la introducción &lt; /p &gt; <br> &lt; p &gt;Este es otro parrafo &lt; /p &gt; <br> # introduccion { color:blue; } ( Un selector por id utiliza el simbolo #)</p>             
+        <li>Selector por clase:</li>
+         <p class="cont123"> Aplicar el estilo a un conjunto de elementos.<br>Ejemplo: &lt; p class="especial" &gt;  este es un parrafo especial &lt; /p &gt; </p>        
+        <li>Selector Universal " * ":</li>
+        <p class="cont123"> Aplica el mismo estilo a todos los elementos de la pagina.</p>
     <footer>
         <a href="index.html"> <h5>Regresar a apuntes</h5></a> 
+
+        <a  target="_blank"  
+        href="https://validator.w3.org/check?uri=https://chava2708.github.io/selectorescss.html">
+        <img src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML">
+        </a>         
+        <a  target="_blank"  
+        href="https://jigsaw.w3.org/css-validator/validator?uri=https://chava2708.github.io/selectorescss.html">
+        <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS">
+       
+        </a>
     </footer>
 </body>
 </html>
