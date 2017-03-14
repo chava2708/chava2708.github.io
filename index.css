@@ -16,13 +16,17 @@ dt{
     color: red;
 }
 
+.tdN{
+    color: black;
+}
+
 
 
 table{
     border-color: black;
     border-width: 3px;
     border-style: inset;        
-    text-align: center;  
+    text-align: center;      
 }
 
 
