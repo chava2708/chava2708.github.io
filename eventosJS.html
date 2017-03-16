@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos JavaScript</title>
+    <link rel="stylesheet" href="index.css">    
+</head>
+<body class="b">
+    <h1>Eventos JavaScript</h1>
+    <h3>Eventos</h3>
+
+    <p>Elemento ---} Eventos ---} Código</p>
+
+    <ul class="sinViñetaN">
+        <li>1. UI</li>
+        <li>
+            <ul>
+                <li>Scroll</li>
+                <li>Resize</li>
+                <li>Load</li>
+            </ul>
+        </li>
+        <li>2. Teclado</li>
+        <li>
+            <ul>
+                <li>Keypress</li>
+                <li>Keydown</li>
+                <li>Keyup</li>
+            </ul>
+        </li>
+        <li>3. Raton</li>
+        <li>
+            <ul>
+                <li>Click</li>
+                <li>Dblclick</li>
+                <li>Mousedown</li>
+            </ul>
+        </li>
+        <li>4. Formularios</li>
+        <li>
+            <ul>
+                <li>Input</li>
+                <li>Submit</li>
+                <li>Change</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Pasos para el manejo de eventos</h3>
+
+    <ol>
+        <li>Seleccionar el elemento (nodo)</li>
+        <li>Indicar el evento en el elemento seleccionado</li>
+        <li>Escribir el script a ejecutar en respuesta al evento</li>
+    </ol>
+
+    <h3>Tipos de manejadores</h3>
+
+    <ul class="sinViñetaN">
+        <li>1. Manejador HTML</li>
+        <li>
+            <ul>
+                <li>&lt; elemento onevento = "código"&gt; CONTENID &lt;/elemento&gt;</li>
+                <li>&lt; a onclick = “alert(‘hola’)”&gt; Saluda &lt;/a&gt;</li>
+            </ul>
+        </li>
+        <li>2. Manejador DOM tradicional</li>
+        <li>
+            <ul>
+                <li>elemento.onevento = nombreFunción</li>
+                <li>documento.getElementById('enlace').onclick = alert('Hola')</li>                
+                <li class="sinViñetaN"> <p> Desventaja: un elemento un evento</p></li>
+            </ul>
+        </li>
+        <li>3. Escuchador DOM nivel 2</li>
+        <li>
+            <ul>
+                <li>Elemento.addEventListener(‘evento’,nombreFuncion)	</li>
+                <li>document.getElementById(‘enlace’).addEventListener(‘click’,saludar)</li>
+            </ul>
+        </li>
+    </ul>
+    
+     <footer>    
+        <a href="index.html"> <h5>Regresar a apuntes</h5></a> 
+
+        <a  target="_blank"  
+        href="http://validator.w3.org/check?uri=https://chava2708.github.io/eventosJS.html">
+        <img src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML">
+         </a>
+         <a  target="_blank"  
+        href="https://jigsaw.w3.org/css-validator/validator?uri=https://chava2708.github.io/eventosJS.html">
+        <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS">
+        </a> 
+    </footer>
+</body>
+</html>
